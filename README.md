@@ -53,3 +53,5 @@ Order/Purchase
 * Service
 * Support
 * Foreign key to Supplier & Buyer
+* Steps
+* Comments
