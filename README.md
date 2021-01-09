@@ -32,3 +32,24 @@ Create LLC
 Launch App
 
 Active testing
+
+### Database Schema
+
+
+Supplier ID
+	* Address
+	* Phone
+	* Email
+
+
+Buyer ID
+	* Address
+	* Phone
+	* Email
+
+
+Order/Purchase
+	* Product
+	* Service
+	* Support
+	* Foreign key to Supplier & Buyer
