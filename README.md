@@ -37,19 +37,19 @@ Active testing
 
 
 Supplier ID
-	* Address
-	* Phone
-	* Email
+* Address
+* Phone
+* Email
 
 
 Buyer ID
-	* Address
-	* Phone
-	* Email
+* Address
+* Phone
+* Email
 
 
 Order/Purchase
-	* Product
-	* Service
-	* Support
-	* Foreign key to Supplier & Buyer
+* Product
+* Service
+* Support
+* Foreign key to Supplier & Buyer
