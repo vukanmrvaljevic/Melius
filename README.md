@@ -9,29 +9,29 @@ https://onedrive.live.com/view.aspx?resid=8A302B47030E270!19778&ithint=file%2cdo
 
 ### Timeline
 
-* End of December:
+### End of December:
 
-All pages finished
+* All pages finished
 
-Database schema
+* Database schema
 
-* End of January:
+### End of January:
 
-Website published to domain
+* Website published to domain
 
-Recieving feedback from users
+* Recieving feedback from users
 
-Login/Authentication
+* Login/Authentication
 
-Inhouse testing
+* Inhouse testing
 
-Create LLC
+* Create LLC
 
-* End of February:
+### End of February:
 
-Launch App
+* Launch App
 
-Active testing
+* Active testing
 
 ### Database Schema
 
