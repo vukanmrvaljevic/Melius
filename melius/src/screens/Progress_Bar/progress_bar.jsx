@@ -14,7 +14,7 @@ import React from "react"
 function progress_bar() {
     return (
         <div>
-            hello this is a page!
+            hello this is the progress bar page!
         </div>
     )
     // return (
