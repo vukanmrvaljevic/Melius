@@ -12,18 +12,23 @@ function SignUp() {
     
     async function handleSubmit(e) {
         e.preventDefault()
-
-        if (passwordRef.current.value !== passwordConfirmRef.current.value) { return setError("Passwords do not match") }
-        
-        try {
-            setError('')
-            setLoading(true)
-            await signUp(emailRef.current.value, passwordRef.current.value)
-        } catch {
-             setError('Failed to create an account')
+    
+        if (passwordRef.current.value !== passwordConfirmRef.current.value) {
+          return setError("Passwords do not match")
         }
-            setLoading(false)
-    }
+    
+        try {
+          setError("")
+          setLoading(true)
+          await signUp(emailRef.current.value, passwordRef.current.value)
+
+        } catch {
+          setError("Failed to create an account")
+        }
+    
+        setLoading(false)
+      }
+    
   return (
     <div>
           <Card>
