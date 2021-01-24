@@ -1,9 +1,9 @@
 import React from "react"
 import SignUp from "./SignUp"
-import { Container } from 'react-bootstrap'
+import { Container } from "react-bootstrap"
 import { AuthProvider } from "../Context/AuthContext"
 
-function Create_Login() {
+function Create_Account() {
     return (
       <AuthProvider>
           <Container className="d-flex align-items-center justify-content-center" style={{ minHeight: "100vh" }}>
@@ -15,4 +15,4 @@ function Create_Login() {
   )
 }
 
-export default Create_Login
+export default Create_Account
