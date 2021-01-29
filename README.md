@@ -4,7 +4,7 @@
 https://jamboard.google.com/d/1F7QvtBAYXrxkSkHHViYxMP0DSPlJVY01ZEVrf_y6ikI/viewer?f=1
 
 ### This is the new final version of the Wireframe
-https://whimsical.com/old-melius-wireframe-TdLF8fu4aekv9ynrJu3M78
+https://whimsical.com/melius-wireframe-SrPQSBCWwq9xuE3EAFitt8
 
 ### This is the link contains documents that explains how the app should operate
 https://onedrive.live.com/edit.aspx?resid=8A302B47030E270%2119778&id=documents&authkey=!AgPJvh1ABOpCJ6s&
