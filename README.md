@@ -1,10 +1,13 @@
 # Melius
 
-### This is the Wireframe
+### This is the old Wireframe
 https://whimsical.com/melius-wireframe-TdLF8fu4aekv9ynrJu3M78
 
+### This is the new Wireframe
+https://jamboard.google.com/d/1F7QvtBAYXrxkSkHHViYxMP0DSPlJVY01ZEVrf_y6ikI/viewer?f=1
+
 ### This is the link contains documents that explains how the app should operate
-https://onedrive.live.com/view.aspx?resid=8A302B47030E270!19778&ithint=file%2cdocx&authkey=!AgPJvh1ABOpCJ6s
+https://onedrive.live.com/edit.aspx?resid=8A302B47030E270%2119778&id=documents&authkey=!AgPJvh1ABOpCJ6s&
 
 
 ### Timeline
