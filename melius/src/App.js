@@ -1,6 +1,7 @@
 import React from "react"
 import "./App.css"
 import { Switch, Route, Link } from "react-router-dom"
+import { AuthProvider } from "./screens/Context/AuthContext"
 import HomePage from "./screens/Home/HomePage"
 import Choices from "./screens/Choices/Choices"
 import Progress_bar from "./screens/Progress_Bar/progress_bar"
@@ -31,6 +32,7 @@ function App() {
           Table Viewing
         </Link>
       </div>
+      <AuthProvider>
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/create_account" component={CreateAccount} />
@@ -39,6 +41,7 @@ function App() {
         <Route exact path="/progress_bar" component={Progress_bar} />
         <Route exact path="/table_viewing" component={table_viewing} />
       </Switch>
+      </AuthProvider>
     </div>
   )
 }
