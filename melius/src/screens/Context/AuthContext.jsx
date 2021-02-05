@@ -8,64 +8,10 @@ export function useAuth() {
 }
 
 export function AuthProvider({ children }) {
-<<<<<<< HEAD
-  const [currentUser, setCurrentUser] = useState()
-  const [loading, setLoading] = useState(true)
-
-  function signup(email, password) {
-    return auth.createUserWithEmailAndPassword(email, password)
-  }
-
-  function login(email, password) {
-    return auth.signInWithEmailAndPassword(email, password)
-  }
-
-  function logout() {
-    return auth.signOut()
-  }
-
-  function resetPassword(email) {
-    return auth.sendPasswordResetEmail(email)
-  }
-
-  function updateEmail(email) {
-    return currentUser.updateEmail(email)
-  }
-
-  function updatePassword(password) {
-    return currentUser.updatePassword(password)
-  }
-
-  useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged(user => {
-      setCurrentUser(user)
-      setLoading(false)
-    })
-
-    return unsubscribe
-  }, [])
-
-  const value = {
-    currentUser,
-    login,
-    signup,
-    logout,
-    resetPassword,
-    updateEmail,
-    updatePassword
-  }
-
-  return (
-    <AuthContext.Provider value={value}>
-      {!loading && children}
-    </AuthContext.Provider>
-  )
-}
-=======
     const [currentUser, setCurrentUser] = useState()
     const [loading, setLoading] = useState(true)
   
-    function signup(email, password) {
+    function Signup(email, password) {
       return auth.createUserWithEmailAndPassword(email, password)
     }
 
@@ -100,7 +46,7 @@ export function AuthProvider({ children }) {
     const value = {
         currentUser,
         login,
-        signup,
+        Signup,
         logout,
         resetPassword,
         updateEmail,
@@ -113,4 +59,3 @@ export function AuthProvider({ children }) {
         </AuthContext.Provider>
     )
 }
->>>>>>> 45497166c8307643286ed8be31c6315a2d2a633e
