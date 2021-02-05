@@ -7,7 +7,11 @@ export default function Signup() {
   const emailRef = useRef()
   const passwordRef = useRef()
   const passwordConfirmRef = useRef()
+<<<<<<< HEAD
   const signUp  = useAuth()
+=======
+  const { signup } = useAuth()
+>>>>>>> 45497166c8307643286ed8be31c6315a2d2a633e
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(false)
   const history = useHistory()
@@ -22,7 +26,11 @@ export default function Signup() {
     try {
       setError("")
       setLoading(true)
+<<<<<<< HEAD
       await signUp(emailRef.current.value, passwordRef.current.value)
+=======
+      await signup(emailRef.current.value, passwordRef.current.value)
+>>>>>>> 45497166c8307643286ed8be31c6315a2d2a633e
       history.push("/")
     } catch {
       setError("Failed to create an account")
@@ -61,4 +69,8 @@ export default function Signup() {
       </div>
     </>
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 45497166c8307643286ed8be31c6315a2d2a633e
