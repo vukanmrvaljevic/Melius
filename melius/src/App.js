@@ -33,14 +33,14 @@ function App() {
         </Link>
       </div>
       <AuthProvider>
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route exact path="/create_account" component={CreateAccount} />
-        <Route exact path="/purchase-type" component={PurchaseType} />
-        <Route exact path="/signup" component={SignUp} />
-        <Route exact path="/set-up-tasks" component={SetUpTasks} />
-        <Route exact path="/progress_bar" component={Progress_bar} />
-      </Switch>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/create_account" component={CreateAccount} />
+          <Route exact path="/purchase-type" component={PurchaseType} />
+          <Route exact path="/signup" component={SignUp} />
+          <Route exact path="/set-up-tasks" component={SetUpTasks} />
+          <Route exact path="/progress_bar" component={Progress_bar} />
+        </Switch>
       </AuthProvider>
     </div>
   )
