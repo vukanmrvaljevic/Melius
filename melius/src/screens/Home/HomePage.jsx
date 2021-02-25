@@ -1,4 +1,5 @@
 import React from "react"
+import {  Link } from "react-router-dom"
 import "./HomePage.css"
 
 function HomePage() {
@@ -23,14 +24,17 @@ function HomePage() {
     />
   )
   return (
-    <div>
-      <ColoredLine color="gray" />
-      <div className="home-title">
+      <div>
+      <div className="links-style">
+          <Link to="/login">Log-In</Link>
+          <Link to="/signup">Sign-Up</Link>
+          </div>
+          <ColoredLine color="gray" />
+    <div className="home-title">
         <h1>Welcome to Melius</h1>
         <h4>Your Personal Order Tracker</h4>
-      </div>
-
-      <ColoredLineTwo color="gray" />
+          </div>
+          <ColoredLineTwo color="gray" />
     </div>
   )
 }

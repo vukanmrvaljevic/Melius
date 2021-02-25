@@ -19,3 +19,28 @@
   padding: 10px 5px;
   font-size: 0.8em;
 }
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+  margin-left: 650px;
+}
+.one {
+  position: fixed;
+  left: 680px;
+  top: 350px;
+  font-weight: bold;
+  color: black;
+  font-size: 50px;
+  text-decoration: none;
+}
+.two {
+  position: fixed;
+  left: 680px;
+  top: 440px;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration: none;
+}
